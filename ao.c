@@ -336,7 +336,8 @@ main(int argc, char **argv)
 
     render(img, WIDTH, HEIGHT, NSUBSAMPLES);
 
-    //saveppm("ao.ppm", WIDTH, HEIGHT, img); 
+    saveppm("ao.ppm", WIDTH, HEIGHT, img); 
+    printf("Output ao.ppm\n");
 
     return 0;
 }
