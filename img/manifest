@@ -1,0 +1,16 @@
+{
+    "acKind": "ImageManifest",
+    "acVersion": "0.1.1",
+    "name": "aobench",
+    "labels": [
+        {"name": "os", "val": "linux"},
+        {"name": "arch", "val": "amd64"}
+    ],
+    "app": {
+        "exec": [
+            "/bin/ao"
+        ],
+        "user": "0",
+        "group": "0"
+    }
+}
